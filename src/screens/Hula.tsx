@@ -1,17 +1,15 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import {NavigationContainer} from '@react-navigation/native';
-import BottomTab from './src/navigation/BottomTab';
 
-const App = () => {
+const Hula = () => {
   return (
-    <NavigationContainer>
-      <BottomTab />
-    </NavigationContainer>
+    <View style={styles.container}>
+      <Text>Hula</Text>
+    </View>
   );
 };
 
-export default App;
+export default Hula;
 
 const styles = StyleSheet.create({
   container: {
